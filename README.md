@@ -1,6 +1,6 @@
 # Azure Task Manager ☁️✅
 
-![CI/CD](https://github.com/krishna2198-dotcom/azure-task-manager/actions/workflows/deploy.yml/badge.svg)
+![CI/CD](https://github.com/krishna2198-dotcom/azure-task-manager/actions/workflows/deploy.yml/badge.svg?branch=main)
 
 A Full Stack Task Manager app built with React.js frontend
 and Flask REST API backend, connected to Azure CosmosDB (NoSQL).
