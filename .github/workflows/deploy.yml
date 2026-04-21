@@ -1,4 +1,4 @@
-name: CI/CD Pipeline - Azure Task Manager
+name: CI/CD Pipeline - Enterprise Label Approval System
 
 on:
   push:
@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: |
           cd backend
-          pip install flask azure-cosmos python-dotenv flask-cors
+          pip install flask azure-cosmos python-dotenv flask-cors sendgrid authlib requests
 
       - name: Check Python syntax
         run: |
@@ -50,5 +50,5 @@ jobs:
           cd frontend
           npm run build
           echo "✅ Frontend build passed"
-	env:
-	   CI: false
+        env:
+          CI: false
